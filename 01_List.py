@@ -66,3 +66,29 @@ NumAndStr.clear()
 print(NumAndStr)
 #output:
 #[]
+
+print("\n")
+
+#Output LIST Element by While
+NumAndStr = [1, 2, 3]
+print("#Output list [1, 2, 3] by while statement")
+Count = 0
+while Count < len(NumAndStr):
+    print(NumAndStr[Count])
+    Count = Count + 1
+#output:
+#1
+#2
+#3
+
+print("\n")
+
+#Output LIST Element by for
+NumAndStr = [1, 2, 3]
+print("#Output list [1, 2, 3] by for statement")
+for element_NumAndStr in NumAndStr:
+    print(element_NumAndStr)
+#output:
+#1
+#2
+#3
