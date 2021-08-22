@@ -11,3 +11,4 @@ import numpy
 imgarr = numpy.array(img)
 
 print(imgarr.shape)                     #(123, 160, 3)
+

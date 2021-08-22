@@ -92,3 +92,9 @@ for element_NumAndStr in NumAndStr:
 #1
 #2
 #3
+
+#For Statement put element to List
+list_number = [i for i in range(1, 10)]
+print(list_number)
+#output:
+#[1, 2, 3, 4, 5, 6, 7, 8, 9]

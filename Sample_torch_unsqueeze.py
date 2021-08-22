@@ -1,3 +1,5 @@
+#如何讓 Torch 三維變四維
+
 import numpy as np
 
 #Manual create numpy
